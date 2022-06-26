@@ -17,6 +17,8 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import JsxDemo from './components/JsxDemo';
 import EventDemo from './components/EventDemo';
+import Header from './components/Header';
+import Footer from './Footer';
 function App() {
 
   return (
@@ -39,7 +41,9 @@ function App() {
     {/* <AboutUs mydata="pune 123 near station"></AboutUs> */}
     {/* <ContactUs></ContactUs>
     <JsxDemo></JsxDemo> */}
-    <EventDemo></EventDemo>
+    {/* <EventDemo></EventDemo> */}
+    <Header></Header>
+    <Footer></Footer>
     </div>
   );
 }
