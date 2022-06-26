@@ -16,6 +16,7 @@ import Demo from './Demo';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import JsxDemo from './components/JsxDemo';
+import EventDemo from './components/EventDemo';
 function App() {
 
   return (
@@ -35,9 +36,10 @@ function App() {
     <Consumer name="raj" email="raj@gmail.com"></Consumer>
     <Consumer name="rahul" email="rahul@gmail.com"></Consumer> */}
     {/* <Demo></Demo> */}
-    <AboutUs mydata="pune 123 near station"></AboutUs>
+    {/* <AboutUs mydata="pune 123 near station"></AboutUs> */}
     {/* <ContactUs></ContactUs>
     <JsxDemo></JsxDemo> */}
+    <EventDemo></EventDemo>
     </div>
   );
 }
