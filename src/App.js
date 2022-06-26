@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import JsxDemo from './JsxDemo';
+// import JsxDemo from './JsxDemo';
 import Greet from './Greet';
 import hello from './Modulename'
 import Welcome from './Welcome';
@@ -12,6 +12,10 @@ import User from './User';
 import Consumer from './Consumer';
 import EventFunction from './EventFunction';
 import EventClass from './EventClass';
+import Demo from './Demo';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
+import JsxDemo from './components/JsxDemo';
 function App() {
 
   return (
@@ -26,10 +30,14 @@ function App() {
    */}
    {/* <EventClass></EventClass>
     */}
-    <Consumer name="rakesh" email="rakesh@gmail.com"></Consumer>
+    {/* <Consumer name="rakesh" email="rakesh@gmail.com"></Consumer> */}
     {/* <Consumer name="ram" email="ram@gmail.com"></Consumer>
     <Consumer name="raj" email="raj@gmail.com"></Consumer>
     <Consumer name="rahul" email="rahul@gmail.com"></Consumer> */}
+    {/* <Demo></Demo> */}
+    <AboutUs mydata="pune 123 near station"></AboutUs>
+    {/* <ContactUs></ContactUs>
+    <JsxDemo></JsxDemo> */}
     </div>
   );
 }
