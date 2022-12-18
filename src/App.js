@@ -19,6 +19,9 @@ import JsxDemo from './components/JsxDemo';
 import EventDemo from './components/EventDemo';
 import Header from './components/Header';
 import Footer from './Footer';
+import Parent from './Parent';
+import JsxIntro from './JsxIntro';
+import StateExample from './StateExample';
 function App() {
 
   return (
@@ -42,8 +45,11 @@ function App() {
     {/* <ContactUs></ContactUs>
     <JsxDemo></JsxDemo> */}
     {/* <EventDemo></EventDemo> */}
-    <Header></Header>
-    <Footer></Footer>
+    {/* <Header></Header>
+    <Footer></Footer> */}
+    {/* <Parent></Parent> */}
+    {/* <JsxIntro></JsxIntro> */}
+    <StateExample></StateExample>
     </div>
   );
 }
