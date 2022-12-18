@@ -22,6 +22,7 @@ import Footer from './Footer';
 import Parent from './Parent';
 import JsxIntro from './JsxIntro';
 import StateExample from './StateExample';
+import ParentComp from './ParentComp';
 function App() {
 
   return (
@@ -49,7 +50,8 @@ function App() {
     <Footer></Footer> */}
     {/* <Parent></Parent> */}
     {/* <JsxIntro></JsxIntro> */}
-    <StateExample></StateExample>
+    {/* <StateExample></StateExample> */}
+    <ParentComp></ParentComp>
     </div>
   );
 }
